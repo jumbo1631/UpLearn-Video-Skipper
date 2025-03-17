@@ -40,9 +40,9 @@ Steps 1-4 are **1 time only setup steps** (unless your token expires then you ma
 4. **Grab the UpLearn API bearer token** (if you choose the extra safe route, this token should be grabbed while logged into your dummy free trial account) 
 
     - Open the Developer Console:
-        - In Chrome, press Ctrl + Shift + J (Windows) or Cmd + Option + J (Mac).
-        - In Firefox, press Ctrl + Shift + K (Windows) or Cmd + Option + K (Mac).
-        - If none of them work, try F12, Ctrl + Shift + I or right click on the page and click Inspect/Inspect Element.
+      - In Chrome, press Ctrl + Shift + J (Windows) or Cmd + Option + J (Mac).
+      - In Firefox, press Ctrl + Shift + K (Windows) or Cmd + Option + K (Mac).
+      - If none of them work, try F12, Ctrl + Shift + I or right click on the page and click Inspect/Inspect Element.
 
     - Go to the "Network" tab
     - Now, refresh the webpage
@@ -60,10 +60,10 @@ Steps 1-4 are **1 time only setup steps** (unless your token expires then you ma
 
 This repo is a fork of [itsme12453/UpLearn Video Skipper](https://github.com/itsme12453/UpLearn-Video-Skipper). I have changed very little from that original script. Here are the notable changes which you can verify yourself:
 
-    - Use of an intercepted bearer token to authenticate with the UpLearn API. This fixes an authentication issue.
-    - Use of Tampermonkey rather than pasting Javascript into the developer console. Both are equally invasive, but Tampermonkey is more convenient, as it only requires setting up once.
-    - Fixed a few logic errors, specifically resetting the state upon subsequent calls of `makeApiRequest`.
-    - Added some error alerts.
+- Use of an intercepted bearer token to authenticate with the UpLearn API. This fixes an authentication issue.
+- Use of Tampermonkey rather than pasting Javascript into the developer console. Both are equally invasive, but Tampermonkey is more convenient, as it only requires setting up once.
+- Fixed a few logic errors, specifically resetting the state upon subsequent calls of `makeApiRequest`.
+- Added some error alerts.
 
 ## Disclaimer
 
