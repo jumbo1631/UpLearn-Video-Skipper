@@ -56,7 +56,7 @@ Steps 1-4 are **1 time only setup steps** (unless your token expires then you ma
 6. **Click "Skip Video"**:
     - Click the "Skip Video" button to start skipping through the video. The script will automatically navigate to each question's position in the video.
 
-- ### About this script
+## About this script
 
 This repo is a fork of [itsme12453/UpLearn Video Skipper](https://github.com/itsme12453/UpLearn-Video-Skipper). I have changed very little from that original script. Here are the notable changes which you can verify yourself:
 
